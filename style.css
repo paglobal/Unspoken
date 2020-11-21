@@ -137,6 +137,11 @@ body {
 
 .content .col img {
   width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content .col .img-wrapper:hover img {
+  transform: scale(1.2);
 }
 
 .content .col h2 {
